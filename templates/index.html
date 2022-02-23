@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Model Deployment</title>
+
+</head>
+
+
+<body>
+ <h1 style="color:blue;font-size:50px;">CROP PREDICTION </h1>
+
+ <form action="/" method="POST">
+      <label for="temp">Temperature :</label><br>
+     <input type="number" name="Temperature" id="temp" step="0.01"><br><br>
+     <label for="hum">Humidity :</label><br>
+      <input type="number" name="Humidity" id="hum" step="0.01"><br><br>
+     <label for="ph">ph :</label><br>
+      <input type="number" name="Ph" id="ph" step="0.01"><br><br>
+     <label for="rf">Rainfall :</label><br>
+      <input type="number" name="Rainfall" id="rf" step="0.01"><br><br>
+     <input type="submit">
+
+ </form>
+<br><br><br>
+
+ <p style="color:green;font-size:48px;">Suggested Crop : {{op}}</p>
+
+
+
+
+</body>
+</html>
